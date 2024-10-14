@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% from 'bootstrap5/form.html' import render_form %}
+
+{% block head %}
+   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='create.css') }}">
+{% endblock %}
+
+{% block content %}
+  <div class="create-container"> <!-- Center the content -->
+    <div class="row w-100 justify-content-center">
+      <div class="col-md-5 text-center"> <!-- Center the content inside -->
+        <img src="{{ url_for('static', filename='image/logo.png') }}" alt="VacayAway Logo" class="logo"> <!-- Add the logo with class "logo" -->
+        <h1>Add a New Destination to Explore</h1>
+        <p>Share the details of an exciting travel destination that will inspire your clients to pack their bags and embark on an unforgettable adventure!</p>
+        {{ render_form(form) }}
+      </div>
+    </div>
+  </div>
+{% endblock %}

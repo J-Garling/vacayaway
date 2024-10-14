@@ -1,0 +1,134 @@
+/* ----------------- Custom styling for base.html ----------------- */ 
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #b4ddf5d0; 
+    height: 100%;
+}
+
+/* Style for logo and brand name in the navbar */
+.navbar-brand img {
+    max-height: 80px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar styles */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffff; 
+}
+
+/* Logo name title */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2.5rem; 
+    color: #ffb71d; 
+}
+
+/* Navbar link styling */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #292929; 
+    margin-right: 1.5rem;
+    padding: 0.5rem 1rem; 
+    border-radius: 0;
+    background-color: transparent;
+    transition: none !important;
+}
+
+/* Hover effect with curved background */
+.navbar-nav .nav-link:hover {
+    color: #020202; 
+    background-color: #ffdd73;
+    border-radius: 20px;
+    transition: none !important;
+}
+
+/* Disabled link styling */
+.navbar-nav .nav-link.disabled {
+    color: #ffb71d;
+    pointer-events: none;
+}
+
+/* Active link styling */
+.navbar-nav .nav-link.active {
+    color: #ffb71d;
+    font-weight: bold;
+    background-color: #f7d882;
+    border-radius: 20px; 
+    transition: none !important;
+}
+
+/* Header flash message styles */
+.alert {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #ffffff; 
+    border-top: 2.5px solid #ffb71d; 
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Center the description */
+.footer-description {
+    max-width: 600px;
+    margin: 0 auto; 
+    padding-bottom: 20px; 
+}
+
+/* Footer paragraph */
+.footer-description p {
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: #343a40; 
+}
+
+/* Style for copyright and logo */
+.footer span {
+    font-size: 1rem;
+    color: #555555;
+}
+
+.footer-logo {
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+
+/* Button styles */
+.btn-primary {
+    background-color: #ffb71d;
+    border-color: #a05b00;
+    transition: background-color 0.3s ease;
+}
+
+/* Change button color on hover */
+.btn-primary:hover {
+    background-color: #48c4d4;
+    border-color: #1b5fdd;
+}
+
+/* General content styles */
+.container-fluid {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Flash message styles */
+.alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+}

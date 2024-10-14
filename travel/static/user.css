@@ -1,0 +1,75 @@
+/* Apply all styles only within the user-page class */
+.user-page .container {
+    min-height: calc(100vh - 100px); /* Full viewport height minus some offset */
+    display: flex;
+    justify-content: center; /* Horizontally centers the container */
+    align-items: flex-start; /* Align the content towards the top */
+    padding-top: 20px; /* Adjust the padding between navbar and form */
+}
+
+/* Styling for the user container (login/register) */
+.user-page .user-container {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 40px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%; /* Ensure it takes up the full width of the 5 columns */
+    max-width: 500px; /* Maximum width to maintain a compact design */
+    margin-top: -150px; /* Move container further up without affecting other elements */
+}
+
+/* Logo Styling */
+.user-page .logo {
+    max-width: 200px; /* Adjust the size of the logo */
+    margin-bottom: 5px; /* Space between the logo and heading */
+}
+
+/* Center the heading */
+.user-page h4 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+/* Form input styling */
+.user-page .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+}
+
+.user-page .form-control:focus {
+    border-color: #007bff; /* Blue focus border */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Button Styling */
+.user-page .btn-primary {
+    background-color: #ffb71d;
+    border-color: #a05b00;
+    font-size: 1.2rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.user-page .btn-primary:hover {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+/* Message Styling */
+.user-page .alert {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Link Styling */
+.user-page a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.user-page a:hover {
+    text-decoration: underline;
+}

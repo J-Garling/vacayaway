@@ -1,0 +1,90 @@
+/* Custom styling for show.html */
+
+/* Styling for the destination title */
+.destination-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+/* Styling for the currency section */
+.currency-display {
+    background-color: #ffb71d;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.currency-display p, .currency-display h2 {
+    margin: 0;
+}
+
+/* Make the destination image look nice inside the container */
+.destination-image {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust the media body to have a nice padding and separation */
+.media-body {
+    padding-left: 20px;
+}
+
+/* Styling for the "Book Now" button */
+.btn-danger {
+    background-color: #16a03f;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.btn-danger:hover {
+    background-color: #c70039;
+}
+
+/* Styling for the comments section container */
+.comments-section-container {
+    background-color: #ffb71d93; /* Light background for the entire comments section */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+/* Styling for the individual comment items */
+.comment-item {
+    background-color: #ffb71d2f;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+}
+
+/* Comment User and date styling */
+.comment-item b {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.comment-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Styling for the comments form */
+.comment-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Comments Section Heading */
+.comments-section h2 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #343a40;
+}

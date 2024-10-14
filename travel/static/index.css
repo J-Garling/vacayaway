@@ -1,0 +1,68 @@
+/* ----------------- Custum styling for index.html ----------------- */ 
+
+
+/* Jumbotron background image styling */
+.custom-jumbotron {
+    background-image: url('/static/image/Jumbo.jpg');
+    background-size: cover; /* Ensures the image covers the background without stretching */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 700px; /* You can adjust the height as needed */
+}
+
+
+
+.jumbotron-card {
+    padding: 5rem;
+    margin-bottom: 3rem;
+    background-color: #f8f9fa; /* This is 'bg-light' in Bootstrap */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Custom curved container with shadow and border */
+.custom-content {
+    background-color: #ffffff; /* White background to make it stand out */
+    border-radius: 20px; /* Curved corners */
+    padding: 20px; /* Add padding inside */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow for a standout effect */
+    border: 2px solid #ffb71d; /* Light border around the container */
+}
+
+/* Custom card styling */
+.custom-card {
+    display: flex;
+    flex-direction: column; /* Ensures that the body and footer are in vertical alignment */
+    justify-content: space-between; /* Pushes the footer to the bottom */
+    height: 100%; /* Forces the card to take up full height in the column */
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card img {
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* Make sure card footer stays at the bottom */
+.custom-card .card-body {
+    flex-grow: 1; /* Ensures the body takes up the remaining space in the card */
+}
+
+.custom-card .card-footer {
+    background-color: #fff;
+    border-top: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px); /* Hover effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+
+
+
+

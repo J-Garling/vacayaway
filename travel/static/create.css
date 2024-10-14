@@ -1,0 +1,77 @@
+/* Container Styling */
+.create-container {
+    background-color: #f7d882; /* Light background color */
+    padding: 40px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+
+/* Logo Styling */
+.create-container .logo {
+    display: block;
+    margin: 0 auto; /* Centers the logo */
+    padding-bottom: 10px; /* Adjust the space between the logo and h1 */
+    max-width: 250px; /* Set a max width for the logo */
+}
+
+/* Headings and Paragraph Styling */
+.create-container h1, .create-container p {
+    margin-bottom: 20px;
+    text-align: center; /* Center the text */
+}
+
+.create-container h1 {
+    font-size: 2.5rem; /* Large heading */
+    color: #343a40; /* Dark gray */
+}
+
+.create-container p {
+    font-size: 1.2rem; /* Slightly larger paragraph text */
+    color: #6c757d; /* Medium gray */
+}
+
+/* Form Styling */
+.create-container form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* Form Input/Select/Textarea Styling */
+.create-container form input, 
+.create-container form select, 
+.create-container form textarea {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+.create-container form input:focus, 
+.create-container form select:focus, 
+.create-container form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Center the submit button */
+.create-container form .btn-primary {
+    display: block;
+    margin: 20px auto 0 auto; /* Centers the button */
+    background-color: #ffb71d;
+    border-color: #a05b00;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.create-container form .btn-primary:hover {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
